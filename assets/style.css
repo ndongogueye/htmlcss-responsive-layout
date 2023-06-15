@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(0, 140, 255);
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 60px;
+    width: 100%;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    display: none;
+
+}
+
+nav button {
+    padding: 0.5em;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+li {
+    padding-right: 10px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+
+    margin-top: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.col-1-3 {
+    flex-basis: calc(100%/3);
+   
+    
+}
+
+.col-2-3 {
+    flex-basis: calc((100%/3)*2);
+    
+}
+
+.col-2-3 div {
+
+  
+}
+
+.prima-section .card {
+    background-color: rgb(186, 217, 229);
+   padding-left: 2rem;
+   padding-right:2rem ;
+   margin-bottom: 1rem;
+   border-radius: 20px;
+   margin-left: 2rem;
+   margin-right: 2rem;
+  max-width: 390px;
+}
+
+
+
+.prima-section .card img {
+    width: 100%;
+    max-height:340px ;
+    max-width: 340px;
+}
+.prima-section .card h2 {
+color: rgb(30, 34, 255);
+}
+.prima-section .card h2,p {
+    padding-bottom: 1rem;
+}
+
+.card button {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    width: 200px;
+}
+
+.prima-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
+.testo {
+    margin-left: 2rem;
+}
+
+ .prima-section .col-1-3 i {
+    font-size: 100px;
+ color: rgb(4, 0, 255);
+}
+
+
+
+   
+
+
+.prima-section .col-1-3 i {
+    display: block;
+    padding-top:2rem ;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.seconda-section {
+    background-color: rgb(194, 152, 228);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.secondo h2 {
+ 
+    text-align: center;
+    margin: 1rem   0 ;
+
+}
+
+img {
+    width: 100%;
+}
+
+.secondaSection {
+    background-color: white;
+    border-radius: 30px;
+   color: black;
+}
+
+.secondaSection p {
+    text-align: center;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+.seconda-section button {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgb(194, 152, 228);
+    margin-left: 10rem;
+}    
+
+.partnerContainer {
+   margin-top: 3rem;
+   text-align: center;
+}
+
+.partnerContainer h2 {
+    color: rgb(194, 152, 228);
+}
+
+.partnerContainer p {
+    padding-top: 1rem;
+}
+
+.testimonials {
+    background-color: rgb(194, 152, 228);
+}
+
+.testimonials img {
+    border-radius: 50%;
+    
+   
+    
+}
