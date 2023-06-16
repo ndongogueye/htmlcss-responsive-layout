@@ -85,7 +85,7 @@ li {
    border-radius: 20px;
    margin-left: 2rem;
    margin-right: 2rem;
-  max-width: 390px;
+
 }
 
 
@@ -175,8 +175,8 @@ img {
     font-style: italic;
 }
 
-h2 {
-    text-align: center;
+section {
+    padding: 3rem;
 }
 
 .seconda-section button {
@@ -203,11 +203,151 @@ h2 {
 
 .testimonials {
     background-color: rgb(194, 152, 228);
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+padding: 2rem;
+    margin-top: 2rem;
 }
 
 .testimonials img {
-    border-radius: 50%;
-    
+    border-radius: 100px;
+    padding: 1rem;
+    max-width: 330px;
+    text-align: center;   
+}
+
+.testimonials i {
+ font-size: 25px;
+}
+
+.testimonials p {
+    font-size: 1.5em;
+}
+
+
+
+.terza-section {
+    background-color: rgb(194, 152, 228);
+    padding-top: 1rem;
+    padding: 3rem;
+}
+
+.benefits {
+background-color: white;
+margin-top: 3rem;
+border-radius: 15%;
+padding-left:2rem ;
+padding-right: 2rem;
+padding-bottom: 3rem;
+}
+
+.benefits button{
+    width: 150px;
+    padding: 1em;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(194, 152, 228);
+}
+ .title-container {
+    padding-top: 3rem;
+}
+
+.title-container h2 {
+    padding-bottom: 1rem;
+    font-size: 2em;
+    color: rgb(194, 152, 228);;
+}
+
+.terza-section{
+    margin-top: 5rem;
+}
+
+
+.terza-section>h2 {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.quarta-section {
+    padding: 3rem;
    
+}
+
+.quarta-section img {
+    border-radius: 100%;
+    max-width: 200px;
+}
+
+.quarta-section h2 {
+    padding-bottom: 2rem;
+}
+
+.quarta-section p {
+    line-height: 2em;
+}
+
+.quarta-section h2 {
+    font-size: 2em;
+    color: rgb(194, 152, 228);
+}
+.quarta-section button {
+    background-color: rgb(194, 152, 228); 
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.quinta-section {
+    background-color: rgb(194, 152, 228);
+    text-align: center;   
+    color: white;
+    padding-top: 3rem;
+}
+
+.quinta-section h2 {
+    padding-bottom: 1rem;
+}
+
+.quinta-section button {
+    margin: 1rem 0;
+    width: 250px;
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    color: rgb(194, 152, 228);
+    font-style: bold;
+   
+}
+
+.arancione {
+    color: orange;
+    font-size: 3rem;
+}
+
+.quinta-section a {
+    color: white;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    padding:2rem;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding-bottom: 4rem;
+}
+
+footer a {
+    color: rgb(194, 152, 228);
+}
+
+@media  screen min {
     
 }
