@@ -32,6 +32,15 @@ nav button {
     margin-left: 10px;
 }
 
+
+.prima-section button {
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(19, 5, 146);
+    color: white;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -43,48 +52,20 @@ li {
 }
 
 
-.container {
-    width: 100%;
-    max-width: 480px;
-    margin: 0 auto;
 
-    margin-top: 2rem;
+
+
+.testo {
+    padding-top: 2rem;
 }
 
-.row {
-    display: flex;
-    flex-direction: column;
-}
-
-.col {
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
-.col-1-3 {
-    flex-basis: calc(100%/3);
-   
-    
-}
-
-.col-2-3 {
-    flex-basis: calc((100%/3)*2);
-    
-}
-
-.col-2-3 div {
-
-  
-}
 
 .prima-section .card {
     background-color: rgb(186, 217, 229);
-   padding-left: 2rem;
-   padding-right:2rem ;
+   padding-left: 1rem;
+  
    margin-bottom: 1rem;
    border-radius: 20px;
-   margin-left: 2rem;
-   margin-right: 2rem;
 
 }
 
@@ -109,10 +90,7 @@ color: rgb(30, 34, 255);
 }
 
 .prima-section .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+  
 }
 
 
@@ -139,10 +117,7 @@ color: rgb(30, 34, 255);
     text-align: center;
 }
 
-section {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
+
 
 .seconda-section {
     background-color: rgb(194, 152, 228);
@@ -164,10 +139,19 @@ img {
     width: 100%;
 }
 
+
+.tipaColPc {
+    text-align: center;
+}
+
 .secondaSection {
     background-color: white;
     border-radius: 30px;
    color: black;
+   text-align: center;
+   margin-right:2rem ;
+   margin-left:2rem ;
+  
 }
 
 .secondaSection p {
@@ -176,7 +160,7 @@ img {
 }
 
 section {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .seconda-section button {
@@ -185,8 +169,14 @@ section {
     height: 50px;
     border: none;
     background-color: rgb(194, 152, 228);
-    margin-left: 10rem;
+ 
+
 }    
+
+
+.seconda-section img {
+     max-width: 500px;
+}
 
 .partnerContainer {
    margin-top: 3rem;
@@ -204,17 +194,18 @@ section {
 .testimonials {
     background-color: rgb(194, 152, 228);
     text-align: center;
-    border-radius: 10%;
+    border-radius: 50px;
     color: white;
-padding: 2rem;
     margin-top: 2rem;
+    padding: 1rem;
 }
 
 .testimonials img {
-    border-radius: 100px;
-    padding: 1rem;
-    max-width: 330px;
-    text-align: center;   
+    border-radius: 100%;
+    padding-right: 1rem;
+    max-width: 200px;
+    text-align: center;  
+   height: 150px;
 }
 
 .testimonials i {
@@ -233,10 +224,14 @@ padding: 2rem;
     padding: 3rem;
 }
 
+.terza-section>h2 {
+color: white;
+}
+
 .benefits {
 background-color: white;
 margin-top: 3rem;
-border-radius: 15%;
+border-radius: 25px;
 padding-left:2rem ;
 padding-right: 2rem;
 padding-bottom: 3rem;
@@ -348,6 +343,129 @@ footer a {
     color: rgb(194, 152, 228);
 }
 
-@media  screen min {
-    
+
+
+
+@media  screen and (min-width:768px) {
+
+    .card {
+        margin-right: 2rem;
+    }
+
+.flex-card{
+    display: flex;
 }
+
+.prima-section {
+    line-height: 1.5em;
+}
+
+.prima-section .col-2-3 {}
+
+
+
+
+.prima-section .col-1-3 p {
+    text-align: center;
+}
+
+.prima-section .col-1-3 {
+    padding: 1rem;
+}
+
+.testimonials {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.row-benefits {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: ;
+}
+
+.benefits {
+   width: 45%;
+   margin-right: 2rem;
+}
+
+.quarta-section {
+    display: flex;
+}
+.profilo-linkedin  {
+
+    padding-left:4em;
+}
+
+.testo-lungo h2 {
+    font-size:4em ;
+}
+
+.profilo-linkedin h2 {
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+
+.terza-section h2 {
+    font-size: 2rem;
+}
+
+.title-container h2:first-child {
+font-size:3em ;
+}
+
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+
+    .card button {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .secondaSection{
+        margin-top: 20rem;
+        height: 500px;
+        width: 400px;
+    }
+    .secondaSection img {
+    width: 300px;
+    }
+    .secondaSection p {
+        padding:1rem
+    }
+
+    .secondo-container {
+        display: flex;
+    }
+
+    .tipaColPc {
+        max-width:500px ;
+        text-align: left;
+    }
+
+    .tipaColPc h2 {
+        padding-top: 3rem;
+        padding-bottom:2rem ;
+    }
+
+    .benefits {
+        justify-content: center;
+        width: 30%;
+    }
+
+    .testimonials {
+        padding: 2rem;
+        font-size: 1em;
+    }
+   nav i {
+    display: none;
+   }
+}
+
+    
