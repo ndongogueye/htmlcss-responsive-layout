@@ -422,7 +422,7 @@ font-size:3em ;
 }
 
 @media screen and (min-width: 1200px) {
-
+.prima-section 
     .card button {
         margin-left: 0px;
         margin-bottom: 0px;
@@ -463,7 +463,10 @@ font-size:3em ;
         padding: 2rem;
         font-size: 1em;
     }
-   nav i {
+    nav div {
+        display: flex;
+    }
+   nav i::before{
     display: none;
    }
 }
